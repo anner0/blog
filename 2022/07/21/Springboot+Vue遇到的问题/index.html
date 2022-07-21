@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Springboot+vue遇到的问题 | Yuuu</title><meta name="author" content="Yuuu"><meta name="copyright" content="Yuuu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="Springboot+Vue遇到的问题1.创建Springboot启动application报错1ERROR17200[main]o.s.b.d.LoggingFailureAnalysisReporter   :  解决方法：在Application类上增加 1@SpringBootApplication(exclude &#x3D;&amp;#123;DataSourceAutoConfiguration.cl">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Springboot+vue遇到的问题 | Yuuu</title><meta name="author" content="Yuuu"><meta name="copyright" content="Yuuu"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Springboot+Vue遇到的问题1.创建Springboot启动application报错1ERROR17200[main]o.s.b.d.LoggingFailureAnalysisReporter   :  解决方法：在Application类上增加 1@SpringBootApplication(exclude &#x3D;&amp;#123;DataSourceAutoConfiguration.cl">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Springboot+vue遇到的问题">
 <meta property="og:url" content="http://yuuu-u.github.io/2022/07/21/Springboot+Vue%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/index.html">
@@ -118,7 +118,7 @@
       win.activateLightMode = function () {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
         }
       }
       const t = saveToLocal.get('theme')
